@@ -1,0 +1,16 @@
+{
+  "name": "data-structures-and-algorithms-practice",
+  "version": "0.0.0",
+  "author": "John Grishin <r@exah.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "ava": {
+    "files": [ "*/test.js" ]
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
