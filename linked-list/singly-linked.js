@@ -9,8 +9,11 @@ class SinglyLinkedList {
     this.head = null
   }
   _validateIndex (index) {
-    if (index < 0 || this.length === 0 || index >= this.length) {
-      throw new Error('Wrong index or empty list')
+    if (this.length === 0) {
+      throw new Error('List is empty')
+    }
+    if (index < 0 || index >= this.length) {
+      throw new Error('Wrong index')
     }
   }
   _getByIndex (index = 0) {
